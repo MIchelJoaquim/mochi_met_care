@@ -22,7 +22,9 @@ Entrega do teste proposto pela Mochi
 ## Funções Lambda
 * save
    * Esta função é acionada a partir do endpoint: 
+   
    https://dcmvgj4v69.execute-api.us-east-1.amazonaws.com/dev/user
+   
    tendo como valores no corpo da requisição:
       * nome
       * email
@@ -30,7 +32,9 @@ Entrega do teste proposto pela Mochi
 * upload
    * Esta função é acionada a partir do endpoint: 
    https://dcmvgj4v69.execute-api.us-east-1.amazonaws.com/dev/upload
+   
    tendo como valores no corpo da requisição:
+   
       * file - ficheiro pdf codificado em base64
       * mime - formato do ficheiro que deve ser application/pdf
       * email
