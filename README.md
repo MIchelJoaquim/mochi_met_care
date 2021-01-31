@@ -24,7 +24,9 @@ Entrega do teste proposto pela Mochi
 
    Esta função é acionada a partir do endpoint: 
    
-   https://dcmvgj4v69.execute-api.us-east-1.amazonaws.com/dev/user
+   url: https://dcmvgj4v69.execute-api.us-east-1.amazonaws.com/dev/user
+   
+   metódo: POST
    
    tendo como valores no corpo da requisição:
    
@@ -35,7 +37,9 @@ Entrega do teste proposto pela Mochi
 
    Esta função é acionada a partir do endpoint: 
    
-   https://dcmvgj4v69.execute-api.us-east-1.amazonaws.com/dev/upload
+   url: https://dcmvgj4v69.execute-api.us-east-1.amazonaws.com/dev/upload
+   
+   metódo: POST
    
    tendo como valores no corpo da requisição:
    
