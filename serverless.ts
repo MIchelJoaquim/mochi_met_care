@@ -86,18 +86,6 @@ const serverlessConfiguration: Serverless = {
           }
         }
       ]
-    },
-    pdfUpload: {
-      handler: 'pdfUpload.handler',
-      events: [
-        {
-          http: {
-            method: 'post',
-            path: 'pdf',
-            cors: true
-          }
-        }
-      ]
     }
   },
   resources: {
