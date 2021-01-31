@@ -21,16 +21,20 @@ Entrega do teste proposto pela Mochi
 
 ## Funções Lambda
 * save
-   * Esta função é acionada a partir do endpoint: 
+
+   Esta função é acionada a partir do endpoint: 
    
    https://dcmvgj4v69.execute-api.us-east-1.amazonaws.com/dev/user
    
    tendo como valores no corpo da requisição:
+   
       * nome
       * email
 
 * upload
-   * Esta função é acionada a partir do endpoint: 
+
+   Esta função é acionada a partir do endpoint: 
+   
    https://dcmvgj4v69.execute-api.us-east-1.amazonaws.com/dev/upload
    
    tendo como valores no corpo da requisição:
